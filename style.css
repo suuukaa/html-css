@@ -1,0 +1,40 @@
+
+        body{
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+}
+        .header{
+            background-color: #0171f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+
+        .logo{
+            width: 100px
+        }  
+
+        .links a{
+            color: white;
+            padding: 5px 15px;
+            text-decoration:none;
+            border-radius: 15px;
+        }
+
+        .header a:hover {
+            background-color: #2386fe;
+        }
+
+        button{
+            background-color:  #EE626B;
+            padding: 5px 15px;
+            color: white;
+            border: 0;
+            border-radius: 15px;
+
+        }
+
+        .links button:hover{
+            background-color: #f2858c;
+        }
